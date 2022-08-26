@@ -1,24 +1,80 @@
-
-#border-radius {
-    background-color: rgba(0, 0, 0, 0.77);
-    opacity: 1.2;
-    border-radius: 20px;
-    width:1000px;
-     
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+.title {
+
+    text-align: center;
+    color: rgb(18, 172, 18);
+    font-size: 30;
+}
+
+.center {
+    position: absolute;
+    background-color: rgba(14, 12, 12, 0.6);
+    left: 20%;
+    right: 20%;
+    bottom: 3%;
+    top: 3%;
+    margin: 10px;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.size{
+    font-size: 20;
+}
+
+.bar {
+    background-color: rgb(18, 172, 18);
+    width: 100%;
+    height: 6%;
+}
+
+.bar1 {
+
+    background-color: #e2ba2a;
+    width: 30%;
+    height: 21px;
+    border-radius: 5px;
+}
+
+.bar2 {
+
+    background-color: rgb(18, 172, 18);
+    width: 70%;
+    height: 21px;
+    border-radius: 5px;
+}
+
+.bar3 {
+
+    background-color: #da4e2f;
+    width: 10%;
+    height: 21px;
+    border-radius: 5px;
+}
+
 #logo img{
-    width: 15%;
-    height: 13%;
+    width: 25%;
+    height: 18%;
     }
-    h2{
-        margin-top: 0;
-        color: rgb(18, 172, 18);
-        font-size: 30px;
-        text-align: center;
-        
-    }
-    h3{
-        text-align: center;
-    }
-
-
+    
